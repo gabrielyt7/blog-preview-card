@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+@media(min-width: 320px) {
+    /*tudo aqui e mobile!!*/
+   *{
+    margin: 0;
+    padding: 0;
+    font-family: "Figtree", sans-serif;
+   }
+
+   body{
+    background-color: hsl(47, 88%, 63%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+   }
+
+
+   main{
+    background-color: white;
+    width: 300px;
+    height: 440px;
+    border-radius: 20px;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 8px 8px 0px 0px rgb(0, 0, 0);
+    padding: 24px;
+    margin: 0 auto;
+    
+   }
+
+   div.ilustracao {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    background-image: url(assets/images/illustration-article.svg);
+    margin: 0 auto;
+   }
+
+   main div.container-atributos{
+    background-color: hsl(47, 88%, 63%);
+    width: 73px;
+    height: 5px;
+    text-align: center;
+    padding: 12px 4px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    margin-bottom: 12px;
+   }
+
+   main div p.atributos{
+    font-weight: bolder;
+    font-size: 12px;
+   }
+
+   main p.data{
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 12px;
+   }
+
+   main h1.titulo{
+    font-size: 20px;
+    font-weight: 800;
+    color: hsl(0, 0%, 7%);
+    margin-bottom: 12px;
+   }
+
+   main p.descricao{
+    color: hsl(0, 0%, 42%);
+    margin-bottom: 20px;
+    text-align:start;
+   }
+
+   main div.professor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 149px;
+   }
+
+   main img.avatar{
+    width: 32px;
+    height: 32px;
+   }
+
+}
+
+
+
+@media (min-width: 1440px) {
+    main{
+        width: 384px;
+        height: 431px;
+    }
+    main div p.categoria-atributos{
+        font-size: 16px;
+    }
+
+main p.data{
+    font-size: 15px;
+}
+
+main h1.titulo{
+    font-size: 26px;
+}
+
+main p.descricao{
+    font-size: 17px;
+}
+
+}
